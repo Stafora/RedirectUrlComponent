@@ -28,7 +28,7 @@ class RedirectUrlComponent extends Component {
         if (($fp = fopen(Yii::getAlias('@app') . "/components/RedirectUrlComponent/files/redirect.csv", "r")) !== FALSE) {
             while (($data = fgetcsv($fp, 0, ",")) !== FALSE) {
                 $list[] = $data;
-                if(ArrayHelper::isIn('/'.$url, $data)){
+                if(ArrayHelper::isIn('/'.$url, $list[0])){
                     $this->redirectUrl($data[1]);
                     exit();
                 }
