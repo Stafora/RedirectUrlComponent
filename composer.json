@@ -16,7 +16,7 @@
     }
   ],
   "autoload": {
-    "psr-4": {"stafora\\redirectUrl\\": ""}
+    "psr-4": {"stafora\\redirect\\": ""}
   },
   "require": {
     "php": ">=7.0.0"
