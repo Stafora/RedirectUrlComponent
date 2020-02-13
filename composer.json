@@ -1,6 +1,6 @@
 {
   "name": "stafora/redirect-url-component",
-  "version":"1.0.3",
+  "version":"1.0.4",
   "keywords": ["yii", "redirect"],
   "description": "Yii2 redirect",
   "homepage": "https://github.com/Stafora/redirect-url-component",
