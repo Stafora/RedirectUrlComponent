@@ -11,7 +11,7 @@ namespace stafora\RedirectUrl;
 
 use Yii;
 use yii\base\Component;
-use stafora\components\RedirectUrl\ParserCSV;
+use stafora\RedirectUrl\ParserCSV;
 
 class RedirectUrl extends Component {
     
