@@ -6,12 +6,12 @@
  * Time: 11:17
  */
 
-namespace stafora\RedirectUrl;
+namespace stafora\redirect;
 
 
 use Yii;
 use yii\base\Component;
-use stafora\RedirectUrl\ParserCSV;
+use stafora\redirect\ParserCSV;
 
 class RedirectUrl extends Component {
     
