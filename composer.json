@@ -1,0 +1,24 @@
+{
+  "name": "stafora/RedirectUrl",
+  "version":"1.0.0",
+  "keywords": ["yii", "redirect"],
+  "description": "Yii2 CKEditor",
+  "homepage": "https://github.com/Stafora/RedirectUrlComponent",
+  "license": "BSD-3-Clause",
+  "type": "yii2-extension",
+  "minimum-stability":"stable",
+  "authors": [
+    {
+      "name": "Stafora",
+      "email": "Artem-1990@list.ru",
+      "homepage": "https://github.com/Stafora",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {"stafora\\redirectUrl\\": ""}
+  },
+  "require": {
+    "php": ">=7.0.0",
+  }
+}
