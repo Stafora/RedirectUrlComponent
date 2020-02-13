@@ -1,22 +1,14 @@
 # RedirectUrlComponent
 
-Настройка редиректов со старых ссылок на новые, через csv файл.
-Разделитель который используется в csv файлах - ",";
+Компонент для редиректа со старых адресов на новые
 
-После установки добавьте в components
-
-```
-'components' => [
-  'RedirectUrlComponent' => [
-      'class' => app\components\RedirectUrlComponent\RedirectUrlComponent::class,
-  ],
-],
-```
-
-и так же bootstrap
-
+Добавьте модуль в ваш bootstrap в файле конфига: 
 ```
 'bootstrap' => [
-  \app\components\RedirectUrlComponent\RedirectUrlComponent::class,
+    'RedirectUrl' => [
+        'class' => "stafora\components\RedirectUrl\RedirectUrl",
+        'filepath' => "@app/components/RedirectUrl/files/redirect.csv",
+    ],
 ],
 ```
+и замените filepath на свой, где лежит ваш файл csv
