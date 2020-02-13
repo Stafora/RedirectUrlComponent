@@ -6,8 +6,8 @@
 ```
 'bootstrap' => [
     'RedirectUrl' => [
-        'class' => "stafora\components\RedirectUrl\RedirectUrl",
-        'filepath' => "@app/components/RedirectUrl/files/redirect.csv",
+        'class' => "stafora\RedirectUrl\RedirectUrl",
+        'filepath' => "@vendor/stafora/redirect-url-component/files/redirect.csv",
     ],
 ],
 ```
