@@ -6,7 +6,7 @@
  * Time: 22:09
  */
 
-namespace stafora\RedirectUrl;
+namespace stafora\redirect;
 
 
 use Yii;
