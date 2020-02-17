@@ -18,19 +18,17 @@ class RedirectUrl extends Component {
     public $filepath = "@app/components/RedirectUrl/files/redirect.csv";
 
 
-    public function init()
+    public function __construct()
     {
-        parent::init();
-
-        $parserCSV = new ParserCSV($this->getFilePath());
-        $url = $parserCSV->parseUrl();
+        $parserCSV = new ParserCSV();
+        $url = $parserCSV->parseUrl($this->getFilePath());
 
         if($url){
             $this->redirectUrl($url);
         }
     }
 
-    public function redirectUrl($url){
+    protected function redirectUrl($url){
         Yii::$app->getResponse()->redirect($url)->send();
         exit;
     }
