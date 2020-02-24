@@ -15,7 +15,7 @@ use stafora\redirect\ParserCSV;
 
 class RedirectUrl extends Component {
     
-    public $filepath = "@app/components/RedirectUrl/files/redirect.csv";
+    public $filepath = "@vendor/stafora/redirect-url-component/files/redirect.csv";
 
 
     public function __construct()
